@@ -33,8 +33,8 @@ const Details = ({ number, data }) => {
                 <div>Error: {error}</div>
             ) : (
                 <>
-                    <div>Message: {data.Message}</div>
-                    <input type="text" placeholder="Filter" onChange={e => setSearch(e.target.value)} value={search} />
+                    <h3>Message: {data.Message}</h3>
+                    <input className="input-2"type="text" placeholder="Filter" onChange={e => setSearch(e.target.value)} value={search} />
                     <div className="dataStyles">
                         {name?.length < 1 ? (
                             <h1>{message}</h1>

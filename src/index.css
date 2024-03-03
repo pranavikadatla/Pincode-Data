@@ -20,6 +20,23 @@
 .width-inner{
   width: 40%;
 }
+.input{
+  width:60%;
+  height:30px;
+}
+.input-2{
+  width:70%;
+  height:20px;
+  margin:9px 5px;
+}
+.button{
+  padding:7px 10px ;
+  margin:10px 2px;
+  font-size: large;
+  color: white;
+  background-color: black;
+  border-radius: 10%;
+}
 .loader{
   width:100px;
   height:100px;
@@ -33,7 +50,7 @@
 .loader{
   @keyframes loading {
     0%{
-      transform:rotate (0deg);
+      transform:rotate (360deg);
     }
     10%{
       transform:rotate (360deg);

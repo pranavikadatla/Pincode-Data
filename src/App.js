@@ -6,7 +6,7 @@ import {Routes,Route} from "react-router-dom"
 
 const App=()=>{
   const [data,setData]=useState([]);
-  const [number,setNumber]=useState(0) ;
+  const [number,setNumber]=useState(" ") ;
   return(
     <div>
       <Routes>

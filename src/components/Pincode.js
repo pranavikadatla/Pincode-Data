@@ -33,7 +33,7 @@ const Pincode=({number,setNumber,setData})=>{
          <input  className="input"type="number" placeolder="Pincode" value={number} name="number"
          onChange={updateNumber}/>
          <div>
-            <button onClick={pincodeDetails}>Lookup</button>
+            <button class="button" onClick={pincodeDetails}>Lookup</button>
         </div>
         {isLoading && <center><div className="loader"></div></center>} 
         </div>
